@@ -1,0 +1,49 @@
+[
+    {
+        "name":"Farmhouse",
+        "image":"https://www.dominos.co.in//files/items/Farmhouse.jpg",
+        "ingredients":"Capsicum, Onions, Tomatos, Olives, Mozzarella Cheese",
+        "prize":300,
+        "discount":10
+    },
+    
+    {
+        "name":"Gourmet",
+        "image":"https://www.dominos.co.in/files/items/Veg_Extravaganz.jpg",
+        "ingredients":"Red Onlion, Wild Mushroom, Pesto, Fresh Tomato, Goat Cheese",
+        "prize":500,
+        "discount":5
+    },
+    
+    {
+        "name":"Margherita",
+        "image":"https://www.dominos.co.in/files/items/Margherit.jpg",
+        "ingredients":"Olive Oil, Roasted Garlic, Tomato Sauce, Mozzarella Cheese",
+        "prize":250,
+        "discount":15
+    },
+    
+    {
+        "name":"Delux Veggi",
+        "image":"https://www.dominos.co.in/files/items/Deluxe_Veggie.jpg",
+        "ingredients":"Red Yello Capsicum, Red Onions, Pesto, Baby Corns, Olives, Extra Cheese",
+        "prize":650,
+        "discount":0
+    },
+    
+    {
+        "name":"Cheese N Corn",
+        "image":"https://www.dominos.co.in/files/items/Corn_&_Cheese.jpg",
+        "ingredients":"Fresh Virgin Corns, Pizza Sauce, Goat Cheese,cottage Cheese",
+        "prize":200,
+        "discount":25
+    },
+    
+    {
+        "name":"5 Pepper",
+        "image":"https://www.dominos.co.in/files/items/5_Pepper.jpg",
+        "ingredients":"Fresh Virgin Corns, Pizza Sauce, Goat Cheese,cottage Cheese", 
+        "prize":800,
+        "discount":50
+    }
+]

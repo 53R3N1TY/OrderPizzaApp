@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Pizzaaaaa....</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="asset/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="asset/css/materialize.min.css" />
+        <link rel="stylesheet" href="asset/css/icon?family=Material+Icons" />
+        <script type="text/javascript" src="asset/js/jquery-3.2.1.min.js"></script>
+    </head>
+    
+
+    <body class="container-fluid">
+        <div id="div1" class="jumbotron text-center">
+            <h1>Order Your Pizza</h1>
+            <h5>We will deliver at your doorstep</h5>            
+        </div>
+        
+        <div class="row">
+            <!-- order summary card-->
+            <div class="col s12 m12 l3" style="float:right;">
+                <div class="card grey lighten-2">
+                    <div class="card-content">
+                        <span class="card-title">Order Summary</span>
+                    </div>
+                    <div class="card-action">
+                        <div id="odsm"></div>
+                        <hr />
+                        <div class="row" >
+                            <div class="col">Total Amount ::</div>
+                            <div class="col" id="total"></div>
+                        </div>
+                        <div class="row" >
+                            <div class="col">Final Amount ::</div>
+                            <div class="col" id="disamount"></div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action" onclick="orderConf();">Checkout<i class="material-icons right">shopping_cart</i></button>
+                    </div>
+                </div>
+            </div>    
+            <!-- Cards content append here -->
+            <div id="div2" class="col s12 m12 l9"></div>                               
+        </div>
+        
+        <script src="asset/js/jquery.min.js"></script>        
+        <script src="asset/js/bootstrap.min.js"></script>
+        <script src="asset/js/materialize.min.js"></script>
+        <script src="asset/js/sweetalert2.all.js"></script>
+        <script src=asset/js/app.js></script>        
+    </body>
+</html>

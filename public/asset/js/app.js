@@ -5,7 +5,7 @@ $(document).ready(function() {
     //window so that we can use these variable across the window as a global variable
     window.totalAmount = 0;
     window.discountedAmount = 0;
-    var url = 'http://localhost/wisdmlbs/pizzas.json';
+    var url = '../private/pizzas.json';
     $('#div2').append('<div class="row" id="pizzas">');
     $.get(url).done(function(json) {
         window.json=json;
@@ -41,7 +41,7 @@ function addPizza(id){
 * @return returns nothing
 **/
 function orderConf(){ 
-    $.get('http://localhost/wisdmlbs/order.json')
+    $.get('../private/order.json')
         .done(function(data){
 		  swal(data['message']);
 	   });

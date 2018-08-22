@@ -16,4 +16,4 @@
 * JQuery
 * Javascript
 * Materializecss
-* SweerAlert
+* SweetAlert
